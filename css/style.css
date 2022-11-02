@@ -1,0 +1,276 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	width: 100%;
+	margin: 20px 0;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+a{
+	text-decoration: none;
+}
+
+.container{
+	width: 1140px;
+	margin: auto;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+
+.menus a{
+	vertical-align: middle;
+}
+
+
+img{
+	width: 120px;
+	height: auto;
+}	
+
+.menus ul{
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.menus ul li{
+	display: inline-block;
+	margin: 0 12px;
+	
+}
+.menus ul li a{
+	color: #50566c;
+	font-weight: 600;
+}
+
+.menu-btn button{
+	background-color: #FF6464;
+	color: white;
+	border: none;
+	padding: 16px 22px;
+	border-radius: 6px;
+	font-weight: 800;
+	transition: 0.5s;
+}
+
+.menu-btn button:hover{
+	background-color: #DD5353;
+	transition: 0.5s;
+}
+
+.first-content{
+	width: 100%;
+	padding: 60px 0;
+}
+
+.first-content-full{
+	display: flex;
+}
+
+.first-left-contant{
+	flex-basis: 50%;
+}
+
+.first-left-contant h1{
+	font-size: 30px;
+	margin: 40px 180px 20px 0;
+	line-height: 36px;
+	color: #283254;
+}
+
+.first-left-contant p{
+	margin: 30px 80px 30px 0;
+	color: #b7b5b5;
+}
+
+.first-left-contant a i{
+	color: #c1bebe;
+    border: 2px solid #c1bebe;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    transition: 0.5s;
+}
+.first-left-contant a i:hover{
+	background-color: #FF6464;
+	color: white;
+	border-color: #FF6464;
+	transform: rotate(360deg);
+	transition: 0.5s;
+}
+
+.first-right-content{
+	flex-basis: 50%;
+}
+
+.first-right-content img{
+	width: 100%;
+	height: auto;
+}
+
+.second-content{
+	flex-basis: 100%;
+	margin: auto;
+}
+.second-top-content{
+	text-align: center;
+	padding: 180px 0 30px;
+}
+.second-top-content h2{
+	margin-bottom: 10px;
+	font-size: 30px;
+	color: #283254;
+}
+.second-top-content p{
+	margin: 0 233px;
+	color: #898787;
+	font-weight: 500;
+	font-style: italic;
+}
+
+.second-bottom-content-full{
+	display: flex;
+}
+
+.second-bottom-content-full img{
+	width: 100% ;
+	margin: auto;
+}
+
+.second-bottom-content-all-img{
+	margin: 0 25px;
+}
+
+.second-bottom-content-all-img p{
+	text-align: center;
+	color: #4c4d52;
+	margin: 15px 0 180px;
+	font-weight: 600;
+}
+
+/*third content css*/
+.third-content{
+	width: 100%;
+	padding: 60px 0;
+}
+
+.section-title{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.section-title h3{
+	color: #283254;
+	font-size: 25px;
+}
+
+.section-title p{
+	color: #898787;
+	font-style: italic;
+
+}
+
+.f-items{
+	display: grid;
+	grid-template-columns: auto auto auto ;
+	grid-row-gap: 16px;
+    grid-column-gap: 16px;
+}
+
+.item{
+	background-color: #dbd7d78f;
+	padding: 34px;
+	text-align: center;
+	border-radius: 8px;
+}
+
+.item i{
+	font-size: 24px;
+	color: #eb1212;
+	border: 2px solid #ffffff;
+	background-color: #ffffff;
+	border-radius: 100%;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+
+.item h4{
+	color: #3c3434;
+	font-weight: 700;
+	font-size: 18px;
+	margin: 15px 0;
+}
+
+.item p{
+	font-size: 15px;
+	color: #7a7a7a;
+}
+
+.item:hover{
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.bottom-content{
+	width: 100%;
+	margin: auto;
+}
+
+
+.bottom-content-full{
+	text-align: center;
+	padding: 80px 0 0;
+	background-color: #2A2550;
+}
+
+
+.bottom-content-full h5{
+	font-size: 25px;
+    margin: 0 520px;
+    color: white;
+}
+
+
+.bottom-content-full a button{
+	background-color: #FF6464;
+	color: white;
+	margin: 20px 0 40px;
+	padding: 16px 22px;
+	border: none;
+	border-radius: 8px;
+	font-weight: 700;
+}
+
+.bottom-content-full a i{
+	margin-left: 1257px;
+	font-size: 24px;
+	border: 2px solid gray;
+	background-color: gray;
+	border-radius: 100%;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 40px;
+	transition: 0.5s;
+}
+
+.bottom-content-full a i:hover{
+	background-color: #FF6464;
+	border-color: #FF6464;
+	color: white;
+	transform: rotate(360deg);
+	transition: 0.5s;
+}
